@@ -46,3 +46,8 @@ end
 #this is what I came up with.
 #"helloworld".each_char {|z| new_array <<  array.index(z) + 1 }
 #this doesn't deal with spaces. array is an a-z array. new_array takes the index numbers of the string that we compared to the a-z array. '1' is the number of the shift. After this block we have new_array full of the numbers. Then another block: new_array.each {|z| puts array[z]}. This outputs the encoded string. 
+
+Step 1: "string".each_char {get the index number for each one of the characters. Get this from the alphabet array. Put those in a new array.}
+Step 2. alphabet array.rotate! the number of the shift.
+Step 3. take the array with the numbers array.each{ puts each letter from the rotated alphabet array into a new string.}
+Step 4. puts the new string.

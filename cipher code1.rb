@@ -5,7 +5,7 @@
 alphabet_array = ("a".."z").to_a
 
 #the other variables.
-message = "mauraanddaddy"
+message = "helloworld"
 holding_array = []
 coded_message = String.new
 

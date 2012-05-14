@@ -1,5 +1,5 @@
 #ceasar shift cipher code.
-#works! yay! Needs improvement tho'. Can't deal with spaces and I'm sure there are other problems.
+#works! yay! Needs improvement tho'. Figured out the spaces problem. Can't deal with punctuation.
 #first we create the alphabet array.
 
 alphabet_array = ("a".."z").to_a

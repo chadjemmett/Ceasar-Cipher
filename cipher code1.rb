@@ -20,14 +20,10 @@ message.delete! " "
 
 
 
-#the meat of the code. we get the numbers in the un-rotated array.
+# we get the number index in the un-rotated array.
 
 message.each_char { |letter| holding_array << alphabet_array.index(letter)}
 
-#the next two lines are just for testing and clarity. I was checking the holding array for the correct numbers.
-#puts holding_array
-
-#puts "****************************"
 
 #then we rotate the array.
 aplhabet_array = alphabet_array.rotate!(-7)

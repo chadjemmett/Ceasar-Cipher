@@ -1,11 +1,10 @@
 #ceasar shift cipher code.
 #works! yay! Needs improvement tho'. Figured out the spaces problem. Can't deal with punctuation.
 #first we create the alphabet array.
-
 alphabet_array = ("a".."z").to_a
 
 #the other variables.
-message = "zayhunl dvtlu sfpun pu wvukz kpzaypibapun zdvykz pz uv"
+message = "uryyb urngure ubj ner lbh?"
 space_index_holding =[]
 holding_array = []
 coded_message = String.new
@@ -26,7 +25,7 @@ message.each_char { |letter| holding_array << alphabet_array.index(letter)}
 
 
 #then we rotate the array.
-aplhabet_array = alphabet_array.rotate!(-7)
+aplhabet_array = alphabet_array.rotate!(-13)
 
 #using the prior numbers we cram the letters into a new string.
 holding_array.each {|number| coded_message << alphabet_array[number]}
